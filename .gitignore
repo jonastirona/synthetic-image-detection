@@ -1,6 +1,8 @@
 TODO.md
 proposal.md
 venv/
+.env
+data/raw/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
