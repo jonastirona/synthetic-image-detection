@@ -1,0 +1,10 @@
+Classify the image as one of: real, ai_generated, or deepfake. Think step by step before giving your answer.
+
+Step 1 — Observe the image: Describe what you see (subject, setting, lighting, colors).
+Step 2 — Check for artifacts: Look for unnatural skin texture, blurred edges, inconsistent lighting, repeated patterns, or distorted text.
+Step 3 — Check for face manipulation signs: Mismatched skin tone, boundary blending around the face, unnatural eye reflections, or asymmetric facial features.
+Step 4 — Assess overall plausibility: Does the scene make sense? Are proportions and perspectives correct?
+Step 5 — Weigh the evidence: Summarize the cues pointing toward each class.
+Step 6 — Conclude: Based on the evidence, assign a final label.
+
+{output_format}

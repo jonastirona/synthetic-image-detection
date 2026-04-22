@@ -1,0 +1,12 @@
+Examine the image carefully for visual cues that indicate its origin.
+
+Consider the following:
+- Skin texture, hair, and facial features (if people are present)
+- Lighting consistency and shadows
+- Background coherence and edge sharpness
+- Unnatural patterns, artifacts, or blurring
+- Overall scene plausibility
+
+Based on your analysis, classify the image as one of: real, ai_generated, or deepfake.
+
+{output_format}

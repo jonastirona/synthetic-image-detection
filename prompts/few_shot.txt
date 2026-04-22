@@ -1,0 +1,13 @@
+Classify the image as one of: real, ai_generated, or deepfake.
+
+Here are examples of how each class typically appears:
+
+Real: Authentic photographs with natural lighting, consistent shadows, realistic skin pores and hair strands, and plausible scene composition. Minor imperfections like motion blur or lens distortion are common.
+
+AI-generated: Images produced entirely by a generative model (e.g. Stable Diffusion, DALL-E). May show overly smooth textures, dreamlike or surreal aesthetics, unusual background details, or repeated patterns. Text in the image is often garbled.
+
+Deepfake: Images where a real person's face or likeness has been digitally manipulated or swapped onto another body. Look for blending artifacts at the face boundary, mismatched skin tone between face and neck, unnatural eye reflections, or inconsistent lighting on the face versus the rest of the image.
+
+Now classify the provided image.
+
+{output_format}

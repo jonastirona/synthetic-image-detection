@@ -1,0 +1,3 @@
+Is this image real, AI-generated, or a deepfake?
+
+{output_format}
