@@ -26,24 +26,22 @@ ollama pull llava
 
 ## Dataset
 
-Images are sourced from [prithivMLmods/AI-vs-Deepfake-vs-Real](https://huggingface.co/datasets/prithivMLmods/AI-vs-Deepfake-vs-Real) on HuggingFace (gated — requires free account + accepting terms).
+60 images total — 20 per class — drawn from three independent HuggingFace sources to maximize within-class diversity:
 
-**60 images total, 20 per class:**
+| Class | Source | Filenames |
+|-------|--------|-----------|
+| Real | [lmms-lab/flickr30k](https://huggingface.co/datasets/lmms-lab/flickr30k) | original Flickr photo IDs (e.g. `127332812.jpg`) |
+| AI-generated | [bitmind/FakeClue](https://huggingface.co/datasets/bitmind/FakeClue) | `fakeclue_000.jpg` – `fakeclue_019.jpg` |
+| Deepfake | [saakshigupta/deepfake-detection-dataset-v3](https://huggingface.co/datasets/saakshigupta/deepfake-detection-dataset-v3) | `df_000.jpg` – `df_019.jpg` |
 
-| Class | Files | HuggingFace label |
-|-------|-------|-------------------|
-| Real | `real_01.jpg` – `real_20.jpg` | `Real` |
-| AI-generated | `ai_01.jpg` – `ai_20.jpg` | `Artificial` |
-| Deepfake | `deepfake_01.jpg` – `deepfake_20.jpg` | `Deepfake` |
-
-To download, set your HuggingFace token and run:
+To download, add your HuggingFace token to a `.env` file and run:
 
 ```bash
-export HF_TOKEN=hf_your_token_here
+echo "HF_TOKEN=hf_your_token_here" > .env
 python src/download_dataset.py
 ```
 
-Images are saved to `data/raw/`.
+Images are saved to `data/raw/`. Labels are written to `data/processed/labels.csv`.
 
 ---
 
