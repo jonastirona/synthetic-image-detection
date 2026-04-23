@@ -29,6 +29,7 @@ mdurl==0.1.2
 multidict==6.7.1
 multiprocess==0.70.19
 numpy==2.4.4
+ollama==0.6.1
 packaging==26.1
 pandas==3.0.2
 pillow==12.2.0
