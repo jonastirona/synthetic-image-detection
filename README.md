@@ -82,3 +82,41 @@ python src/evaluation.py
 ```
 
 Outputs accuracy, per-class F1, confusion matrices, and figures to `results/`.
+
+---
+
+## Results
+
+**Overall accuracy: 41.5%** (vs. 33% random chance) across all 480 runs.
+
+### Accuracy by Prompt Type
+
+| Prompt | Accuracy | Macro F1 |
+|--------|----------|----------|
+| `structured` | 46.7% | 0.387 |
+| `zero_shot` | 45.8% | 0.370 |
+| `cot` | 39.2% | 0.313 |
+| `few_shot` | 34.2% | 0.198 |
+
+### Accuracy by Output Format
+
+| Format | Accuracy | Macro F1 |
+|--------|----------|----------|
+| `label_only` | 44.6% | 0.373 |
+| `reasoning` | 38.3% | 0.262 |
+
+### Per-Class Performance
+
+| Class | Recall | F1 |
+|-------|--------|-----|
+| `ai_generated` | 90.6% | 0.547 |
+| `real` | 30.0% | 0.364 |
+| `deepfake` | 3.8% | 0.072 |
+
+### Key Findings
+
+- The model is strongly biased toward predicting `ai_generated` (91% recall), at the cost of almost completely missing `deepfake` images (3.8% recall, precision 100% for the few it catches).
+- Structured prompting performed best overall, consistent with the hypothesis that guided visual analysis improves classification.
+- Contrary to expectations, requiring reasoning output (label + confidence + explanation) slightly *hurt* accuracy relative to label-only output.
+- Confidence scores were poorly calibrated: correct predictions averaged 91.9 vs. incorrect predictions averaging 89.2 — nearly indistinguishable.
+- Few-shot prompting underperformed zero-shot, likely because the 3 visual examples introduced class imbalance in the model's context window.

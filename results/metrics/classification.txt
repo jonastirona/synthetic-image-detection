@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+        real       0.46      0.30      0.36       160
+ai_generated       0.39      0.91      0.55       160
+    deepfake       1.00      0.04      0.07       160
+
+    accuracy                           0.41       480
+   macro avg       0.62      0.41      0.33       480
+weighted avg       0.62      0.41      0.33       480
