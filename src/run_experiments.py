@@ -60,6 +60,7 @@ def load_done() -> set[tuple[str, str, str]]:
 
 def _normalize(text: str) -> str:
     """Normalize common model label variations to canonical form."""
+    text = re.sub(r"\*+", "", text)   # strip markdown bold/italic
     text = text.lower().strip()
     text = re.sub(r"ai[-\s]+generated", "ai_generated", text)
     text = re.sub(r"deep[-\s]+fake", "deepfake", text)
@@ -128,7 +129,9 @@ def main() -> None:
                         continue
 
                     full_prompt = prompts[prompt_type].format(output_format=fmt_str)
-                    examples = EXAMPLE_IMAGES if prompt_type == "few_shot" else None
+                    # Ollama llama3.2-vision only supports 1 image per call,
+                    # so few_shot uses text descriptions only (no visual examples)
+                    examples = None
 
                     completed += 1
                     print(
