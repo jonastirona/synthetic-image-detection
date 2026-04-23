@@ -104,6 +104,17 @@ def main() -> None:
 
     total = len(labels) * len(PROMPT_TYPES) * len(OUTPUT_FORMATS)
     completed = len(done)
+    remaining = total - completed
+
+    label_counts = {}
+    for v in labels.values():
+        label_counts[v] = label_counts.get(v, 0) + 1
+
+    print(f"Model:     llama3.2-vision")
+    print(f"Images:    {len(labels)}  " + "  ".join(f"{k}={v}" for k, v in sorted(label_counts.items())))
+    print(f"Runs:      {total} total | {completed} done | {remaining} remaining")
+    print(f"Output:    {PREDICTIONS_CSV}")
+    print("-" * 60)
 
     with open(PREDICTIONS_CSV, "a", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -119,6 +130,12 @@ def main() -> None:
                     full_prompt = prompts[prompt_type].format(output_format=fmt_str)
                     examples = EXAMPLE_IMAGES if prompt_type == "few_shot" else None
 
+                    completed += 1
+                    print(
+                        f"[{completed:3d}/{total}] {image_path} | {prompt_type} | {fmt_name} ...",
+                        end=" ", flush=True,
+                    )
+
                     try:
                         raw = query(full_prompt, RAW_DIR / image_path, examples)
                     except Exception as e:
@@ -126,12 +143,7 @@ def main() -> None:
 
                     predicted, confidence = parse(raw, fmt_name)
                     correct = "✓" if predicted == true_label else "✗"
-                    completed += 1
-
-                    print(
-                        f"[{completed:3d}/{total}] {image_path} | {prompt_type} | {fmt_name}"
-                        f" → {predicted} (true: {true_label}) {correct}"
-                    )
+                    print(f"→ {predicted} (true: {true_label}) {correct}")
 
                     writer.writerow({
                         "image_path": image_path,

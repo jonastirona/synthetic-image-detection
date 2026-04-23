@@ -4,6 +4,7 @@ venv/
 .env
 data/raw/
 data/examples/
+.claude/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
