@@ -2,7 +2,7 @@
 
 CS 474 — Jonas Tirona
 
-Evaluating multimodal LLM performance for detecting real, AI-generated, and deepfake images using prompting strategies.
+Evaluating multimodal LLM performance for detecting real, AI-generated, and deepfake images across four prompting strategies and two output formats.
 
 ---
 
@@ -26,15 +26,15 @@ ollama pull gemma3:12b
 
 ## Dataset
 
-60 images total — 20 per class — drawn from three independent HuggingFace sources to maximize within-class diversity:
+60 test images (20 per class) drawn from three independent HuggingFace sources for maximum within-class diversity. 1 held-out example image per class is stored in `data/examples/` for visual few-shot prompting.
 
-| Class | Source | Filenames |
-|-------|--------|-----------|
+| Class | Source | Test filenames |
+|-------|--------|----------------|
 | Real | [lmms-lab/flickr30k](https://huggingface.co/datasets/lmms-lab/flickr30k) | original Flickr photo IDs (e.g. `127332812.jpg`) |
 | AI-generated | [bitmind/FakeClue](https://huggingface.co/datasets/bitmind/FakeClue) | `fakeclue_000.jpg` – `fakeclue_019.jpg` |
 | Deepfake | [saakshigupta/deepfake-detection-dataset-v3](https://huggingface.co/datasets/saakshigupta/deepfake-detection-dataset-v3) | `df_000.jpg` – `df_019.jpg` |
 
-To download, add your HuggingFace token to a `.env` file and run:
+Add your HuggingFace token to a `.env` file, then download:
 
 ```bash
 echo "HF_TOKEN=hf_your_token_here" > .env
@@ -45,13 +45,33 @@ Images are saved to `data/raw/`. Labels are written to `data/processed/labels.cs
 
 ---
 
+## Experiment Design
+
+**Model:** Gemma 3 12B via Ollama (local, no API)
+
+**480 total runs:** 60 images × 4 prompting strategies × 2 output formats
+
+| Prompting strategy | Description |
+|--------------------|-------------|
+| `zero_shot` | Direct question, no guidance |
+| `structured` | Guided checklist of visual cues (texture, lighting, artifacts) |
+| `few_shot` | 3 labeled visual examples (one per class) passed alongside the test image |
+| `cot` | Step-by-step reasoning before classification |
+
+| Output format | Description |
+|---------------|-------------|
+| `label_only` | Single word: `real`, `ai_generated`, or `deepfake` |
+| `reasoning` | Structured response with label, confidence (0–100), and explanation |
+
+---
+
 ## Running Experiments
 
 ```bash
 python src/run_experiments.py
 ```
 
-480 runs: 60 images × 4 prompting strategies × 2 output formats. Results saved to `results/predictions.csv`.
+Results are written incrementally to `results/predictions.csv`. The run is resumable — already-completed rows are skipped on restart.
 
 ---
 
@@ -61,4 +81,4 @@ python src/run_experiments.py
 python src/evaluation.py
 ```
 
-Outputs accuracy, F1, confusion matrices, and figures to `results/`.
+Outputs accuracy, per-class F1, confusion matrices, and figures to `results/`.
