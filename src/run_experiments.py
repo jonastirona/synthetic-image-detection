@@ -58,18 +58,29 @@ def load_done() -> set[tuple[str, str, str]]:
         }
 
 
+def _normalize(text: str) -> str:
+    """Normalize common model label variations to canonical form."""
+    text = text.lower().strip()
+    text = re.sub(r"ai[-\s]+generated", "ai_generated", text)
+    text = re.sub(r"deep[-\s]+fake", "deepfake", text)
+    return text
+
+
 def parse(raw: str, fmt: str) -> tuple[str | None, int | None]:
+    normalized = _normalize(raw)
+
     if fmt == "label_only":
-        for token in re.split(r"[\s\n,._:;\"']+", raw.lower()):
+        # Split on whitespace and punctuation but NOT underscores
+        for token in re.split(r"[\s\n,.:;\"']+", normalized):
             if token in VALID_LABELS:
                 return token, None
         return None, None
 
     # reasoning format
     label, confidence = None, None
-    m = re.search(r"label\s*:\s*([\w_]+)", raw, re.IGNORECASE)
+    m = re.search(r"label\s*:\s*([\w_]+)", normalized)
     if m:
-        candidate = m.group(1).lower().strip()
+        candidate = _normalize(m.group(1))
         if candidate in VALID_LABELS:
             label = candidate
     m = re.search(r"confidence\s*:\s*(\d+)", raw, re.IGNORECASE)
