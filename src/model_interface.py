@@ -1,7 +1,7 @@
 import ollama
 from pathlib import Path
 
-MODEL = "llama3.2-vision"
+MODEL = "gemma3:12b"
 
 
 def query(prompt: str, test_image: Path, example_images: list[Path] | None = None) -> str:

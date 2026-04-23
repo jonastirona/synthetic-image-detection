@@ -111,7 +111,7 @@ def main() -> None:
     for v in labels.values():
         label_counts[v] = label_counts.get(v, 0) + 1
 
-    print(f"Model:     llama3.2-vision")
+    print(f"Model:     gemma3:12b")
     print(f"Images:    {len(labels)}  " + "  ".join(f"{k}={v}" for k, v in sorted(label_counts.items())))
     print(f"Runs:      {total} total | {completed} done | {remaining} remaining")
     print(f"Output:    {PREDICTIONS_CSV}")
@@ -129,9 +129,7 @@ def main() -> None:
                         continue
 
                     full_prompt = prompts[prompt_type].format(output_format=fmt_str)
-                    # Ollama llama3.2-vision only supports 1 image per call,
-                    # so few_shot uses text descriptions only (no visual examples)
-                    examples = None
+                    examples = EXAMPLE_IMAGES if prompt_type == "few_shot" else None
 
                     completed += 1
                     print(
