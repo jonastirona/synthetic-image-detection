@@ -3,6 +3,7 @@ proposal.md
 venv/
 .env
 data/raw/
+data/examples/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

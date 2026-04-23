@@ -19,7 +19,7 @@ pip install -r requirements.txt
 Install [Ollama](https://ollama.com), then pull the model:
 
 ```bash
-ollama pull llava
+ollama pull llama3.2-vision
 ```
 
 ---
