@@ -1,1 +1,961 @@
 image_path,true_label,prompt_type,output_format,raw_response,predicted_label,confidence
+1307635496.jpg,real,zero_shot,label_only,real,real,
+1307635496.jpg,real,zero_shot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image exhibits natural lighting, consistent shadows, and realistic details in the texture of the grass and clothing, suggesting it's a photograph of a real person. While it could be enhanced, it doesn't display the telltale artifacts of AI generation or deepfakes.",real,95
+1307635496.jpg,real,structured,label_only,real,real,
+1307635496.jpg,real,structured,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image exhibits natural lighting, consistent shadows, and realistic textures on the person and the grass, indicating it’s a photograph rather than an artificial creation. While slight compression artifacts are present, they are typical of digital photography and do not suggest AI generation or manipulation.",real,95
+1307635496.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+1307635496.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The person's features appear somewhat artificial and the lighting and textures have a digital, almost plastic quality, which are common characteristics of AI-generated images. The expression is also somewhat unnatural.",ai_generated,95
+1307635496.jpg,real,cot,label_only,real,real,
+1307635496.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The child's posture appears slightly stiff and unnatural, and the overall image lacks the subtle imperfections typically found in real photographs, suggesting it was likely created by an AI. The lighting also appears somewhat uniform and lacks the complexity of natural light.",ai_generated,85
+132887917.jpg,real,zero_shot,label_only,real,real,
+132887917.jpg,real,zero_shot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image exhibits natural lighting and a consistent style characteristic of candid photography, and the minor imperfections and details (like the slight blur and realistic skin texture) are not typically found in AI-generated images.",real,95
+132887917.jpg,real,structured,label_only,real,real,
+132887917.jpg,real,structured,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image exhibits realistic skin texture, natural lighting, and a coherent background, indicating it was likely captured with a camera rather than generated artificially. While a very slight softening effect is present, it is consistent with a photographic lens rather than an obvious artifact of AI generation.",real,95
+132887917.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+132887917.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The consistent, slightly unnatural lighting and symmetrical composition of the garden elements, combined with the ""xixi0.6"" watermark, strongly suggest this is an AI-generated image. The overall look is polished and unrealistically perfect.",ai_generated,90
+132887917.jpg,real,cot,label_only,real,real,
+132887917.jpg,real,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image has realistic lighting, textures, and proportions, and there are no obvious artifacts or signs of face manipulation that would suggest AI generation or a deepfake.",real,95
+195546059.jpg,real,zero_shot,label_only,ai_generated,ai_generated,
+195546059.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The perspective and lighting are inconsistent, and there's a subtle ""plastic"" quality to the textures and details, suggesting it was created by an AI. The person's posture also appears somewhat unnatural, a common characteristic of AI-generated figures.",ai_generated,95
+195546059.jpg,real,structured,label_only,ai_generated,ai_generated,
+195546059.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The unnatural blending of the man into the background, along with the slightly inconsistent lighting and the repetitive pattern of the grating, strongly suggest an AI-generated image. The overall scene feels staged and lacks the subtle imperfections typically found in real photographs.",ai_generated,90
+195546059.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+195546059.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The man's face appears overly smooth and symmetrical, and the texture of his clothing looks digitally rendered, which are common characteristics of AI-generated images. The details of the craftwork are also a bit too perfect to be real.",ai_generated,90
+195546059.jpg,real,cot,label_only,real,real,
+195546059.jpg,real,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image exhibits natural lighting and textures, with no obvious signs of digital manipulation or artifacts commonly found in AI-generated or deepfake images. The scene appears plausible and consistent, suggesting it's a photograph of a real person.",real,95
+2050067751.jpg,real,zero_shot,label_only,real,real,
+2050067751.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The proportions of the child's body and the unusual way the lighting hits them, along with slight inconsistencies in the texture of the ground, suggest an AI-generated image. The overall composition seems a bit too ""perfect"" for a candid photograph.",ai_generated,85
+2050067751.jpg,real,structured,label_only,real,real,
+2050067751.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting and shadows are inconsistent, and the child's posture appears slightly unnatural, suggesting it was likely generated by AI. There's also a subtle blurring effect around the edges that isn't typical of photographs.",ai_generated,85
+2050067751.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+2050067751.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's facial features appear slightly unnatural and overly symmetrical, which is characteristic of AI-generated imagery. The background is also somewhat blurry and lacks the detail typically found in photographs.",ai_generated,85
+2050067751.jpg,real,cot,label_only,real,real,
+2050067751.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The unusual pose, somewhat stiff lighting, and overall lack of naturalism in the details of the scene suggest that this image was likely generated by AI. While it's a convincing image, the subtle unnaturalness raises suspicion.",ai_generated,85
+2092425006.jpg,real,zero_shot,label_only,real,real,
+2092425006.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The uniformity of the bikers, the repetitive poses, and slightly unrealistic lighting all suggest an AI-generated image, characteristic of prompt-based image generation models. There's also a certain lack of natural detail and texture consistent with this type of creation.",ai_generated,95
+2092425006.jpg,real,structured,label_only,real,real,
+2092425006.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The unnatural posture of the motorcycles and riders, combined with the slightly blurred background and somewhat inconsistent lighting, suggest the image was likely generated by AI. There's a lack of fine detail and a general ""smoothness"" that is characteristic of AI-generated imagery.",ai_generated,85
+2092425006.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+2092425006.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The texture and lighting appear artificial, and the details of the person's face and the craftwork are too perfect and uniform to be real, suggesting AI generation. The background also appears somewhat unrealistic.",ai_generated,95
+2092425006.jpg,real,cot,label_only,ai_generated,ai_generated,
+2092425006.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image displays somewhat unnatural skin textures and a lack of fine details, combined with slightly inconsistent lighting, suggesting it was likely generated by AI. The overall scene, while plausible, feels slightly staged and lacks the subtle imperfections seen in real photography.",ai_generated,85
+2137071442.jpg,real,zero_shot,label_only,ai_generated,ai_generated,
+2137071442.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting is inconsistent and a bit surreal, and there are subtle anomalies in the textures of the gifts and tree ornaments that suggest it was created by AI. The overall composition also feels somewhat staged, which is a common characteristic of AI-generated images.",ai_generated,95
+2137071442.jpg,real,structured,label_only,ai_generated,ai_generated,
+2137071442.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting is inconsistent, with overly bright highlights and shadows, and the overall scene lacks the subtle details and imperfections typically found in real photographs, suggesting AI generation. The slightly unnatural proportions and blurring around the edges further support this assessment.",ai_generated,85
+2137071442.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+2137071442.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The man's facial features are somewhat distorted and unnatural, and the background appears somewhat artificial, indicating it's likely AI-generated. The consistent watermark also points to AI generation.",ai_generated,90
+2137071442.jpg,real,cot,label_only,real,real,
+2137071442.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting and shadows are somewhat inconsistent, and there's a slightly unnatural feel to the subject's hair and the overall scene, suggesting it was likely created by AI. While subtle, these details point away from a real photograph.",ai_generated,85
+2276237758.jpg,real,zero_shot,label_only,real,real,
+2276237758.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting and composition feel somewhat artificial, and there's a lack of fine detail and natural imperfections typically found in real photographs – the image has a slightly ""flat"" quality. The trophy looks odd, which is another key indicator.",ai_generated,85
+2276237758.jpg,real,structured,label_only,real,real,
+2276237758.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting is inconsistent and unnatural, with peculiar shadowing and a generally artificial feel, suggesting it was likely created by an AI. Additionally, there's a slight blurring and a lack of fine detail typical of real photographs.",ai_generated,85
+2276237758.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+2276237758.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The man's facial features and the surrounding environment appear somewhat artificial and lack the nuanced details typical of a real photograph, suggesting AI generation. The stiff pose and somewhat unnatural lighting further support this classification.",ai_generated,95
+2276237758.jpg,real,cot,label_only,real,real,
+2276237758.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image has a slightly unnatural quality to the lighting and textures, particularly around the man's face and the background greenery, suggesting it was likely created by an AI. While subtle, inconsistencies in detail point towards a synthetic origin.",ai_generated,85
+2592821012.jpg,real,zero_shot,label_only,real,real,
+2592821012.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits inconsistencies in lighting and perspective, and several individuals display unnatural poses and distortions, strongly suggesting AI generation. The overall composition also appears somewhat artificial.",ai_generated,95
+2592821012.jpg,real,structured,label_only,real,real,
+2592821012.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting and shadows appear inconsistent, and some of the people in the crowd have slightly unnatural poses and features, suggesting a digitally created scene. The overall coherence of the background and the detail level also point to AI generation.",ai_generated,85
+2592821012.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+2592821012.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The man's facial features appear slightly unnatural and the overall image has a somewhat artificial quality, consistent with AI-generated content. The background rocks are uniform in texture and lack the nuanced details typically found in real photographs.",ai_generated,90
+2592821012.jpg,real,cot,label_only,ai_generated,ai_generated,
+2592821012.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The people in the image have slightly unnatural poses and facial expressions, with a lack of realistic detail and some blurred edges, suggesting AI generation. The overall scene seems somewhat staged and lacks the imperfections of a real photograph.",ai_generated,85
+2609900643.jpg,real,zero_shot,label_only,ai_generated,ai_generated,
+2609900643.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting and skin texture appear slightly artificial, and there are subtle inconsistencies in the background details that are characteristic of AI-generated imagery. The hair also lacks a naturalness and has a somewhat plastic appearance.",ai_generated,95
+2609900643.jpg,real,structured,label_only,real,real,
+2609900643.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting is inconsistent and the background appears somewhat blurry and simplistic, typical signs of AI-generated imagery attempting to create a natural scene. The skin texture also appears slightly smoothed and lacks the fine details of a real photograph.",ai_generated,85
+2609900643.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+2609900643.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's face appears digitally altered, with an unnatural sheen and oddly shaped nose, and the surrounding landscape has a staged, overly-perfect quality indicative of AI generation. The craftwork also has a somewhat repetitive pattern and stylized aesthetic, further suggesting AI involvement.",ai_generated,85
+2609900643.jpg,real,cot,label_only,real,real,
+2609900643.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image has a slightly artificial look, particularly in the skin texture and lighting, suggesting it was likely generated by AI rather than being a photograph of a real person. There's a softness and lack of detail that is characteristic of AI-generated images.",ai_generated,85
+2705103961.jpg,real,zero_shot,label_only,ai_generated,ai_generated,
+2705103961.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits several inconsistencies and artifacts common in AI-generated content, such as distorted proportions, unnatural poses, and a generally surreal quality to the lighting and background. The details are somewhat blurry and lack the sharpness of a photograph.",ai_generated,95
+2705103961.jpg,real,structured,label_only,ai_generated,ai_generated,
+2705103961.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits several inconsistencies, including unnatural skin textures, oddly shaped shadows, and a generally uncanny valley feel characteristic of AI-generated content. The backgrounds appear oddly pasted together, indicating a lack of natural coherence.",ai_generated,95
+2705103961.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+2705103961.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting and overall composition are too perfect and artificial, and the textures look digitally rendered, suggesting an AI generation. The man's expression and pose also appear somewhat stiff and unnatural.",ai_generated,95
+2705103961.jpg,real,cot,label_only,real,real,
+2705103961.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The image has an unnatural, slightly blurred quality, with a noticeable lack of sharpness and texture in the faces, which are characteristic of AI-generated content. The overall composition, while simple, seems somewhat staged and lacks the complexity of a real photograph.",ai_generated,90
+2833431496.jpg,real,zero_shot,label_only,real,real,
+2833431496.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting and textures are somewhat inconsistent, and there's a slight artificiality to the way the children are posed, suggesting AI generation. There are also minor anomalies in the reflections.",ai_generated,85
+2833431496.jpg,real,structured,label_only,real,real,
+2833431496.jpg,real,structured,reasoning,"Label: real
+Confidence: 95
+Reasoning: The lighting and shadows appear natural, and the textures of the people's hair and skin look realistic, suggesting a photograph rather than a synthetic creation. There are no obvious artifacts or unnatural patterns present in the scene.",real,95
+2833431496.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+2833431496.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The face has an unnatural, almost plastic appearance, and the nose is oddly shaped and positioned, suggesting AI generation. The lighting and details don't quite match a realistic photograph.",ai_generated,85
+2833431496.jpg,real,cot,label_only,real,real,
+2833431496.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The image exhibits a slight lack of realism in the textures and overall sharpness, suggesting it was likely created by an AI, and there's a slight blurriness to the background that is common in AI generated images.",ai_generated,90
+3399751464.jpg,real,zero_shot,label_only,ai_generated,ai_generated,
+3399751464.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits inconsistencies in lighting and perspective, along with an unnatural smoothness and lack of fine detail typical of AI-generated imagery. The repeating pattern of the railing further supports its artificial origin.",ai_generated,95
+3399751464.jpg,real,structured,label_only,ai_generated,ai_generated,
+3399751464.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting appears inconsistent and the scene lacks a natural depth of field, along with a somewhat artificial feel to the textures, all pointing towards AI generation. There's a slight blurring and lack of sharp detail which is common in AI-generated images.",ai_generated,85
+3399751464.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+3399751464.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's face has an unnatural symmetry and texture, and the details of his hands and the crafting process appear slightly off, suggesting an AI-generated image. The surrounding landscape also seems overly crisp and artificial.",ai_generated,85
+3399751464.jpg,real,cot,label_only,real,real,
+3399751464.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits an overall dreamlike quality with soft lighting and a slightly unrealistic color palette, which is common in AI-generated images. There's a lack of sharp details and a gentle blurring that further suggests it wasn't captured by a traditional camera.",ai_generated,85
+3972588012.jpg,real,zero_shot,label_only,real,real,
+3972588012.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits several inconsistencies typical of AI generation, including oddly blurred details, repetitive patterns in the background, and a slightly surreal quality to the lighting and textures. These elements suggest a synthetic origin rather than a photograph.",ai_generated,95
+3972588012.jpg,real,structured,label_only,real,real,
+3972588012.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting appears inconsistent and the overall scene lacks the sharpness and detail typical of photographs, suggesting it was likely generated by an AI. There's also a slightly unnatural quality to the textures and the blurring of some edges.",ai_generated,85
+3972588012.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+3972588012.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting and textures look too uniform and artificial, indicative of a computer-generated image, as well as the odd facial features and the blurred background.",ai_generated,85
+3972588012.jpg,real,cot,label_only,real,real,
+3972588012.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting appears inconsistent, and the texture of the clothes and environment appears slightly artificial, hinting towards AI generation. While not overwhelmingly obvious, these subtle cues suggest it wasn't captured in a real photograph.",ai_generated,85
+4348808646.jpg,real,zero_shot,label_only,ai_generated,ai_generated,
+4348808646.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The slightly unnatural lighting, repetitive textures (like the fabric), and a general lack of fine detail characteristic of photographic realism suggest AI generation. The way the people are positioned also feels somewhat staged and lacks natural fluidity.",ai_generated,95
+4348808646.jpg,real,structured,label_only,ai_generated,ai_generated,
+4348808646.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting is inconsistent, and the textures of the pottery and clothing appear somewhat artificial, suggesting an AI-generated image rather than a photograph of a real scene. The slightly unnatural proportions and blurriness also point towards AI generation.",ai_generated,95
+4348808646.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+4348808646.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The man's face has an unnatural, almost cartoonish quality, and the landscape seems overly stylized and lacks realistic detail, indicative of AI generation. The lighting and textures appear too perfect and uniform.",ai_generated,95
+4348808646.jpg,real,cot,label_only,ai_generated,ai_generated,
+4348808646.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits a slightly dreamlike quality with a soft focus and an unusual color palette, suggesting it was likely created by an AI. There’s a subtle lack of detail and a certain uniformity that is often found in AI-generated images.",ai_generated,85
+4567734402.jpg,real,zero_shot,label_only,ai_generated,ai_generated,
+4567734402.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The faces exhibit a slight blurriness and an unnatural symmetry, coupled with odd lighting and artifacting that are characteristic of AI-generated imagery. The composition also lacks the naturalness and detail typically found in real photographs.",ai_generated,95
+4567734402.jpg,real,structured,label_only,ai_generated,ai_generated,
+4567734402.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears somewhat smoothed and lacks natural imperfections, and the lighting is inconsistent across their faces, suggesting digitally manipulated elements. There is also a slightly unnatural quality to the overall composition and the way the figures are interacting.",ai_generated,85
+4567734402.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+4567734402.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The facial features appear somewhat smoothed and plastic-like, and the lighting and overall composition have a slightly artificial quality typical of AI-generated images. The texture of the hands also looks unnatural.",ai_generated,85
+4567734402.jpg,real,cot,label_only,real,real,
+4567734402.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The skin texture appears somewhat smoothed and lacks natural detail, and the overall lighting and proportions have a slightly artificial feel, suggesting AI generation.",ai_generated,90
+4687453573.jpg,real,zero_shot,label_only,real,real,
+4687453573.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits several inconsistencies, such as the slightly unnatural lighting, the repetitive patterns in the food arrangement, and a generally ""smooth"" quality that's typical of AI-generated imagery. The background also appears to be a bit too perfect and lacks the expected level of natural detail.",ai_generated,95
+4687453573.jpg,real,structured,label_only,real,real,
+4687453573.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting is inconsistent, particularly on the people and objects, and there's a slight blurring effect that's more characteristic of AI-generated images trying to mimic a photographic style. The overall scene, while plausible, lacks the fine detail and sharp focus typically found in real photographs.",ai_generated,85
+4687453573.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+4687453573.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's facial features appear somewhat artificial and the lighting is consistent with a digitally rendered image, suggesting it's not a photograph but an AI creation. The overall style is clean and stylized, further supporting this conclusion.",ai_generated,85
+4687453573.jpg,real,cot,label_only,real,real,
+4687453573.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The overall lighting and color palette seem slightly off, and the composition feels a bit too perfect and staged, suggesting AI generation. While it doesn't have glaring artifacts, the subtle inconsistencies point towards a synthetic image.",ai_generated,85
+4838453136.jpg,real,zero_shot,label_only,real,real,
+4838453136.jpg,real,zero_shot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image exhibits characteristics of a photograph, including natural lighting and a depth of field. The presence of a watermark and visible stage equipment further suggests authenticity.",real,95
+4838453136.jpg,real,structured,label_only,real,real,
+4838453136.jpg,real,structured,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image exhibits consistent lighting and shadows, realistic skin textures, and a plausible concert scene, suggesting it was captured by a camera during a live performance. The presence of a watermark indicates a photographic origin.",real,95
+4838453136.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+4838453136.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The man's facial features, particularly the nose and the somewhat unnatural skin texture, are characteristic of AI-generated imagery. The background and lighting also seem staged and artificial.",ai_generated,95
+4838453136.jpg,real,cot,label_only,real,real,
+4838453136.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image has a slightly artificial look, particularly noticeable in the texture and lighting, suggesting it was likely created by an AI model rather than captured in reality. There's a lack of fine detail and subtle imperfections typically found in real photographs.",ai_generated,85
+4851512952.jpg,real,zero_shot,label_only,ai_generated,ai_generated,
+4851512952.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The inconsistent lighting, slightly unnatural poses of the people, and the repetitive architectural details suggest the image was likely generated by AI. There's a certain ""sameness"" to the figures that is characteristic of AI-generated images.",ai_generated,95
+4851512952.jpg,real,structured,label_only,ai_generated,ai_generated,
+4851512952.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The inconsistent lighting and slightly unnatural poses of the people, combined with the overall ""perfect"" composition, suggest this image was likely AI-generated. There's a lack of realistic imperfections commonly found in photographs.",ai_generated,85
+4851512952.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+4851512952.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The person's features and the overall lighting seem too uniform and lack the subtle imperfections typical of real photographs, which is indicative of AI generation. The texture of the clothing also seems a bit artificial.",ai_generated,85
+4851512952.jpg,real,cot,label_only,ai_generated,ai_generated,
+4851512952.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image displays a slightly artificial quality in the textures and overall lighting, combined with a somewhat unnatural pose, which suggests it was likely generated by AI. There are subtle inconsistencies in the shadows and a slight blurring that are indicative of AI generation.",ai_generated,85
+4853383129.jpg,real,zero_shot,label_only,ai_generated,ai_generated,
+4853383129.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The stiff poses and slightly unnatural lighting, combined with the uncanny textures on the clothing and background details, suggest AI generation rather than a photograph of a real scene. There’s a lack of natural imperfections typical of photography.",ai_generated,95
+4853383129.jpg,real,structured,label_only,ai_generated,ai_generated,
+4853383129.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The unusual skin texture, slightly distorted facial features, and the odd way the people interact with the background (lack of natural occlusion) are indicative of AI generation. The overall scene also lacks a certain naturalness in its composition.",ai_generated,85
+4853383129.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+4853383129.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The unusual skin texture and slightly unnatural facial features, along with the repetitive patterns in the background, suggest an AI-generated image. The overall composition and lighting appear somewhat artificial.",ai_generated,95
+4853383129.jpg,real,cot,label_only,real,real,
+4853383129.jpg,real,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The scene appears somewhat surreal and the clothing styles and poses have a slightly artificial feel, suggesting it was created by an AI. While there are no immediately obvious artifacts, the overall composition lacks the natural imperfections of a real photograph.",ai_generated,85
+6857882214.jpg,real,zero_shot,label_only,ai_generated,ai_generated,
+6857882214.jpg,real,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The unnatural lighting, slightly distorted proportions of the figures, and inconsistencies in the textures suggest this image was likely created by an AI. The overall quality doesn't match typical photography.",ai_generated,95
+6857882214.jpg,real,structured,label_only,real,real,
+6857882214.jpg,real,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting is inconsistent, and there are subtle blurring artifacts, particularly around the edges of the figures and background elements, suggesting AI manipulation to create the image. The overall scene seems plausible, but the imperfections point to an AI origin.",ai_generated,85
+6857882214.jpg,real,few_shot,label_only,ai_generated,ai_generated,
+6857882214.jpg,real,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The man's facial features appear slightly artificial and disproportionate, and the overall lighting and texture are not consistent with a typical photograph, suggesting AI generation. The odd color and sharpness further point to this conclusion.",ai_generated,95
+6857882214.jpg,real,cot,label_only,real,real,
+6857882214.jpg,real,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image exhibits natural lighting and realistic textures, with no obvious signs of AI generation or deepfake manipulation. The scene appears plausible and consistent, suggesting a photograph of a real person.",real,95
+fakeclue_000.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_000.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The unnatural symmetry, overly perfect lighting, and slightly unrealistic textures of the water and foliage strongly suggest AI generation. The bird's placement and style also appear digitally rendered.",ai_generated,95
+fakeclue_000.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_000.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The water flow appears unnaturally smooth and consistent, and the overall scene lacks the subtle imperfections and variations typically found in real-world photography, suggesting it was created by an AI. The lighting is also overly perfect and lacks realistic shadowing.",ai_generated,95
+fakeclue_000.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_000.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The man's face appears overly smooth and symmetrical, and the overall lighting and texture seem artificial, which are common characteristics of AI-generated imagery. The exaggerated expression further points to an AI creation.",ai_generated,95
+fakeclue_000.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_000.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image possesses a slightly plastic texture and the lighting appears somewhat inconsistent, suggesting it was likely generated by AI. While not overly obvious, these subtle anomalies point towards an artificial origin.",ai_generated,85
+fakeclue_001.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_001.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin has an unnatural smoothness and uniform texture, and the eyes lack the subtle imperfections characteristic of real human eyes, indicating AI generation. The overall image lacks the fine details found in photographs.",ai_generated,95
+fakeclue_001.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_001.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and uniform, lacking natural imperfections, and the lighting is almost too perfect, suggesting a digitally rendered image. Subtle inconsistencies in the hair and background also point towards AI generation.",ai_generated,95
+fakeclue_001.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_001.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's facial features appear somewhat unnatural, and the overall lighting and composition seem artificial, suggesting AI generation. The texture of the woven object is also characteristic of digitally created elements.",ai_generated,85
+fakeclue_001.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_001.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The skin texture appears slightly smoothed and lacks the fine details characteristic of real skin, and the lighting is somewhat uniform and unrealistic, suggesting it was digitally created.",ai_generated,90
+fakeclue_002.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_002.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The perspective distortions and slightly unnatural placement of objects, particularly the buildings and vegetation, suggest an AI generation rather than a photograph. There's also a subtle lack of detail and texture commonly found in real-world images.",ai_generated,95
+fakeclue_002.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_002.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The perfectly straight road lines, the slightly unnatural lighting, and the overall composition feel meticulously constructed and lack the subtle imperfections characteristic of a real photograph. There's a certain flatness and lack of depth that suggests digital creation.",ai_generated,90
+fakeclue_002.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_002.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The man's facial features and the way he is holding the craftwork look unnatural and stylized, characteristic of AI-generated imagery. The landscape also has a somewhat artificial quality, suggesting it was constructed digitally.",ai_generated,90
+fakeclue_002.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_002.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The overall composition and lighting appear somewhat artificial, and the clarity and details are a bit too perfect for a real photograph, suggesting AI generation. There's a lack of natural imperfections and subtle nuances often found in real-world images.",ai_generated,85
+fakeclue_003.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_003.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The iridescent effect on the dress and veil appears overly uniform and lacks natural variation, a common characteristic of AI-generated imagery aiming for a stylized aesthetic. Subtle inconsistencies in lighting and reflections further suggest a synthetic origin.",ai_generated,95
+fakeclue_003.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_003.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The shimmering, almost iridescent effect on the dress and veil, combined with the oddly smooth skin and slightly unnatural lighting, strongly suggests AI generation rather than a photograph of a real person. The background also lacks the natural depth and detail typically found in real-world photography.",ai_generated,95
+fakeclue_003.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_003.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The style and composition of the landscaping, along with the somewhat artificial-looking quality of the plants, strongly suggest AI generation, particularly given the watermark present in the image. The consistent, clean lines and symmetry are also characteristic of AI-generated content.",ai_generated,95
+fakeclue_003.jpg,ai_generated,cot,label_only,ai_generated,ai_generated,
+fakeclue_003.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits a slightly blurred quality, particularly around the edges, and the lighting doesn't appear entirely consistent, indicative of AI generation techniques. Subtle inconsistencies in textures suggest a synthetic origin.",ai_generated,95
+fakeclue_004.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_004.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The perfect reflectivity and unrealistic metallic sheen, along with the flawlessly smooth curves and lack of any subtle imperfections, are characteristic of AI-generated imagery. The lighting and shadow patterns also appear somewhat artificial and consistent.",ai_generated,95
+fakeclue_004.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_004.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The highly symmetrical composition, the perfect metallic reflections, and the lack of any natural imperfections strongly suggest an AI generation rather than a photograph of a real object. The clean lines and smooth surfaces are characteristic of AI-generated imagery.",ai_generated,95
+fakeclue_004.jpg,ai_generated,few_shot,label_only,real,real,
+fakeclue_004.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The geometric precision and unnatural lighting in the landscape images, alongside the ""xixi0.6"" watermark, strongly suggest they were AI-generated. The plants are uniform and unrealistic, characteristic of AI rendering.",ai_generated,95
+fakeclue_004.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_004.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The image exhibits an overly smooth texture and a slightly surreal quality to the lighting and shadows, indicating it was likely generated by AI. There's a lack of natural imperfections commonly found in real photographs.",ai_generated,90
+fakeclue_005.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_005.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting and textures appear somewhat artificial, and there's a slight uniformity and lack of natural imperfections characteristic of AI-generated imagery. The chair's proportions also seem subtly off, hinting at synthetic creation.",ai_generated,95
+fakeclue_005.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_005.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting is very uniform and slightly artificial, and the chair’s shape appears overly smooth and perfect, suggesting it was generated by an AI rather than captured in a photograph. The lack of any subtle imperfections also contributes to this impression.",ai_generated,95
+fakeclue_005.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_005.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The unusual lighting and artificial-looking textures on the landscaping, combined with the repetitive patterns and slightly uncanny feel of the scene, strongly suggest AI generation. The ""xixi0.6"" watermark further supports this assessment.",ai_generated,95
+fakeclue_005.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_005.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The lighting and shadows are inconsistent, and there's a slight blurriness to the subject's features, which are common characteristics of AI-generated images. While subtle, these inconsistencies suggest the image wasn't captured in reality.",ai_generated,90
+fakeclue_006.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_006.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting is too perfect and consistent, and there are subtle inconsistencies in the textures and details (like the fabric folds) that are characteristic of AI-generated imagery. The overall composition also feels somewhat artificial.",ai_generated,95
+fakeclue_006.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_006.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and uniform, and there's a slight lack of natural variation in the lighting and shadows, suggesting it was created by an AI. The overall scene has a somewhat artificial and perfect quality.",ai_generated,95
+fakeclue_006.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_006.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The man's facial features appear somewhat unnatural and stylized, and there's a general lack of fine detail consistent with AI-generated imagery. The texture of his clothing also seems overly smooth and uniform.",ai_generated,90
+fakeclue_006.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_006.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears slightly artificial and the lighting is a bit too perfect and consistent, suggesting it was likely created by an AI. While not glaring, these subtle inconsistencies hint at a digitally generated image.",ai_generated,85
+fakeclue_007.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_007.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The composition feels staged and overly perfect, with an unrealistic lighting and some oddities in the plant textures, which are common indicators of AI image generation. The way the furniture is positioned also points to a lack of natural placement.",ai_generated,95
+fakeclue_007.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_007.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting is inconsistent, the textures appear somewhat artificial, and the overall scene has a slightly staged, perfect quality indicative of AI generation. The sharp lines and idealized aesthetics further suggest a digital creation.",ai_generated,95
+fakeclue_007.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_007.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's face has an unnatural, slightly plastic appearance, and the overall lighting and detail seem too perfect and uniform for a photograph, suggesting AI generation. The background also appears somewhat artificial.",ai_generated,85
+fakeclue_007.jpg,ai_generated,cot,label_only,ai_generated,ai_generated,
+fakeclue_007.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The overly saturated colors, the slightly unrealistic composition of the furniture arrangement, and the subtly repetitive pattern of the plants suggest AI generation. While not blatant, these elements are indicative of AI's tendency to create visually pleasing but somewhat artificial scenes.",ai_generated,90
+fakeclue_008.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_008.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The perfect symmetry, slightly unreal textures, and overall composition point towards AI generation, typical of images designed for aesthetic appeal rather than photographic realism. The proportions of the objects also appear somewhat off, suggesting a digitally constructed scene.",ai_generated,95
+fakeclue_008.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_008.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The perfectly symmetrical scene, the unusual placement of objects, and the slightly unnatural textures on the rug and furniture strongly suggest an AI-generated origin, lacking the subtle imperfections of a real photograph. The overall composition appears deliberately staged and lacks natural variance.",ai_generated,95
+fakeclue_008.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_008.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The subject's exaggerated facial features and unnatural skin tone, along with the odd composition and inconsistent lighting, strongly suggest AI generation. The overall style is characteristic of AI-generated images attempting to portray a human subject.",ai_generated,95
+fakeclue_008.jpg,ai_generated,cot,label_only,ai_generated,ai_generated,
+fakeclue_008.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting appears somewhat inconsistent and the sharpness of the objects is slightly artificial, suggesting the image was generated by AI. The overall composition feels staged and lacks the natural imperfections typically found in real photographs.",ai_generated,85
+fakeclue_009.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_009.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The architectural details are overly perfect and symmetrical, and there's a slight ""uncanny valley"" quality to the overall rendering that suggests it's computer-generated. Subtle inconsistencies in lighting and textures are also indicators of AI generation.",ai_generated,95
+fakeclue_009.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_009.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The building's symmetry and idealized lighting, along with a slightly uncanny quality to the background and foliage, strongly suggest an AI-generated origin rather than a photograph of a real location. There's a lack of natural imperfections one would expect in a real-world scene.",ai_generated,95
+fakeclue_009.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_009.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The man's face has an unnatural, overly smooth texture and the placement of his nose seems slightly off, indicative of AI generation. The background is also overly sharp and lacks natural detail.",ai_generated,95
+fakeclue_009.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_009.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The overall scene has a slightly artificial and smooth quality, and the depth of field seems a little off, which are common characteristics of AI-generated images. While it's difficult to definitively prove, the lack of certain natural imperfections suggests it was created by AI.",ai_generated,85
+fakeclue_010.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_010.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting is inconsistent, and there are subtle artifacts in the hair and skin texture that are characteristic of AI-generated images. The overall composition feels staged and a little too perfect.",ai_generated,95
+fakeclue_010.jpg,ai_generated,structured,label_only,real,real,
+fakeclue_010.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting appears somewhat artificial, and there's a slight lack of naturalness in the skin texture and hair rendering, suggesting AI generation. The background also seems a bit too clean and lacking in fine details often found in real photographs.",ai_generated,85
+fakeclue_010.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_010.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's face appears to have a strange, unnatural color and texture, along with distorted features, and the background appears digitally constructed. These are common characteristics of AI-generated imagery.",ai_generated,85
+fakeclue_010.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_010.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and uniform, and the lighting is somewhat artificial, which are common characteristics of AI-generated images. While not definitively proving it, the subtle imperfections suggest a synthetic origin.",ai_generated,85
+fakeclue_011.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_011.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture is too smooth and uniform, and there's a slight lack of natural imperfections common in real photographs, suggesting AI generation. The lighting and composition also feel somewhat artificial.",ai_generated,95
+fakeclue_011.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_011.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and idealized, and the lighting is consistent but somewhat artificial, suggesting the image was likely generated by AI. There’s a subtle lack of natural imperfections typical of real photographs.",ai_generated,95
+fakeclue_011.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_011.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's face appears digitally rendered, exhibiting an unnatural smoothness and a peculiar texture, particularly around the nose and eyes, consistent with AI-generated imagery. The background also appears slightly artificial.",ai_generated,85
+fakeclue_011.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_011.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and uniform, and the overall lighting seems slightly artificial, suggesting the image was created using AI. While subtle, these details point away from a photograph of a real person.",ai_generated,85
+fakeclue_012.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_012.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and uniform, and there's a slight artificiality to the lighting and overall composition, which are common indicators of AI generation. The hair also has an unrealistic quality to it.",ai_generated,95
+fakeclue_012.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_012.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and lacks natural imperfections, and the lighting doesn't quite match the background, suggesting a digitally created image. There's also a slight lack of sharpness around the edges that is typical of AI-generated content.",ai_generated,85
+fakeclue_012.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_012.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The man's features appear somewhat artificial and stylized, and the overall composition and lighting suggest a digitally rendered image, particularly noticeable in the symmetrical and somewhat unrealistic design of the landscaping. The ""xixi0.6"" watermark further confirms AI generation.",ai_generated,95
+fakeclue_012.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_012.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting appears somewhat artificial and the overall image quality lacks the subtle details and imperfections typically found in real photographs, suggesting it was created by an AI. There's a slight softness to the edges that is characteristic of AI-generated images.",ai_generated,95
+fakeclue_013.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_013.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits subtle inconsistencies in lighting and detail, particularly around the foliage and the subject's hair, which are characteristic of AI-generated imagery. The overall composition and aesthetic also align with common AI art styles.",ai_generated,95
+fakeclue_013.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_013.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and lacks natural imperfections, and there's a slight artificiality to the lighting and overall composition, suggesting AI generation. The background also lacks the fine details and natural imperfections typically seen in real photographs.",ai_generated,95
+fakeclue_013.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_013.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's facial features appear slightly unnatural and stylized, and the overall composition has a digital, almost ""perfect"" quality indicative of AI generation. There's also a lack of fine detail and natural textures consistent with an AI rendering.",ai_generated,85
+fakeclue_013.jpg,ai_generated,cot,label_only,ai_generated,ai_generated,
+fakeclue_013.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits subtle inconsistencies in lighting and a slightly plastic skin texture, typical of AI-generated images, though it's convincingly rendered. The overall composition and pose are realistic, but the fine details betray its synthetic nature.",ai_generated,85
+fakeclue_014.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_014.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting inconsistencies and slightly artificial textures on the foliage and stonework suggest AI generation, especially the uniformity of the greenery and the unrealistic shadows. There's a subtle ""plastic"" quality to the overall scene, commonly found in AI-created images.",ai_generated,95
+fakeclue_014.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_014.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The perfectly symmetrical design, the overly neat landscaping, and the slightly unnatural lighting suggest a digitally created scene with a focus on aesthetics, which is characteristic of AI image generation. There's also a subtle lack of texture detail that points towards synthetic creation.",ai_generated,85
+fakeclue_014.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_014.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The landscape design appears too perfect and stylized, lacking natural variation and detail indicative of a photograph. The repeating patterns and overall composition are typical of AI-generated artwork.",ai_generated,90
+fakeclue_014.jpg,ai_generated,cot,label_only,ai_generated,ai_generated,
+fakeclue_014.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The scene has a slightly artificial look with somewhat unnatural lighting and a lack of fine details that would be expected in a real photograph, suggesting AI generation. The overall composition feels a bit too perfect and stylized.",ai_generated,85
+fakeclue_015.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_015.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The proportions and skin texture appear slightly artificial, along with some inconsistencies in the background blurring, which are common characteristics of AI-generated images. The overall look is also too perfect, suggesting it's not a naturally captured photograph.",ai_generated,95
+fakeclue_015.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_015.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and plastic-like, and the lighting lacks realistic falloff, suggesting the image was created by an AI model. Furthermore, there's a subtle blurring around the edges that's characteristic of AI-generated imagery.",ai_generated,95
+fakeclue_015.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_015.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting and textures are too perfect and uniform, and there's a slight artificiality to the person's features and expression, which are characteristic of AI-generated images. The background also has a somewhat staged and unreal feel.",ai_generated,85
+fakeclue_015.jpg,ai_generated,cot,label_only,ai_generated,ai_generated,
+fakeclue_015.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and uniform, and the overall composition has a slightly artificial feel, which are common signs of AI-generated imagery. While the image is high-resolution, the subtle inconsistencies hint at digital creation.",ai_generated,85
+fakeclue_016.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_016.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The perfectly symmetrical and pristine arrangement of objects, along with the unusual lighting and textures, are hallmarks of AI-generated imagery often used in interior design visualizations. There's a distinct lack of natural imperfections and variation that would be present in a real photograph.",ai_generated,95
+fakeclue_016.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_016.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The scene exhibits an almost sterile perfection, with consistent lighting and a lack of natural imperfections, suggesting it was created by an AI model striving for an ideal aesthetic. The furniture placement and overall composition feel calculated rather than organic.",ai_generated,95
+fakeclue_016.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_016.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The textures and lighting are too consistent and perfect, and the landscape appears overly staged, which are typical characteristics of AI-generated images. The details on the man's face and clothing seem unnatural.",ai_generated,95
+fakeclue_016.jpg,ai_generated,cot,label_only,ai_generated,ai_generated,
+fakeclue_016.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting is somewhat inconsistent, and the overall composition feels slightly artificial and staged, which are common traits of AI-generated images aiming for a minimalist aesthetic. The uniformity and lack of subtle imperfections suggest it wasn't captured in reality.",ai_generated,95
+fakeclue_017.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_017.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The repetitive nature of the balconies and slight inconsistencies in perspective suggest a digitally created image, typical of AI-generated content aiming for architectural visuals. The plants also appear somewhat uniform and lack the complexity of natural variation.",ai_generated,90
+fakeclue_017.jpg,ai_generated,structured,label_only,real,real,
+fakeclue_017.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The unusual perspective and slightly ""too perfect"" details (uniform balcony spacing, repetitive window patterns) combined with the slightly softened shadows suggest this is a computer-generated image. There's a subtle lack of organic variation that's typical of real-world photography.",ai_generated,85
+fakeclue_017.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_017.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The man's facial features are slightly off, and the overall lighting and textures appear artificial, suggesting it was created by an AI. The placement of the nose is particularly unnatural.",ai_generated,95
+fakeclue_017.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_017.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits a slight artificiality in the textures and lighting, particularly evident in the uniformity of the building's facade and the overly-perfect placement of the planters, suggesting it was computer-generated. While subtle, these details point towards an AI creation rather than a photograph.",ai_generated,85
+fakeclue_018.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_018.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The uniformity in the background, the somewhat stiff poses, and the slightly unnatural proportions are characteristic of AI-generated imagery. The lighting also seems too consistent and perfect across all three views, which is unlikely in a real photograph.",ai_generated,95
+fakeclue_018.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_018.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting is too uniform and the model’s skin texture appears artificial, suggesting a digitally created image rather than a photograph of a real person. The overall scene lacks the subtle imperfections found in real-world photography.",ai_generated,95
+fakeclue_018.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_018.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The man's facial features, especially the nose, appear artificially constructed and the lighting is inconsistent with a natural environment. The overall composition and texture also suggest AI generation.",ai_generated,95
+fakeclue_018.jpg,ai_generated,cot,label_only,real,real,
+fakeclue_018.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The lighting appears somewhat flat and unnatural, and the overall image has a slightly artificial quality consistent with AI-generated imagery. There's a subtle lack of fine detail and texture that suggests it wasn't captured with a traditional camera.",ai_generated,90
+fakeclue_019.jpg,ai_generated,zero_shot,label_only,ai_generated,ai_generated,
+fakeclue_019.jpg,ai_generated,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The proportions and textures are slightly off, and the lighting appears inconsistent, which are common signs of AI-generated imagery. There's a noticeable lack of fine detail and realism characteristic of a photograph.",ai_generated,95
+fakeclue_019.jpg,ai_generated,structured,label_only,ai_generated,ai_generated,
+fakeclue_019.jpg,ai_generated,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The overly smooth texture, somewhat uniform lighting, and slightly unnatural proportions of the plush toy suggest it was likely created using AI generation techniques. There's a certain lack of detail and natural variation typical of real-world objects.",ai_generated,95
+fakeclue_019.jpg,ai_generated,few_shot,label_only,ai_generated,ai_generated,
+fakeclue_019.jpg,ai_generated,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The man's face appears overly smooth and symmetrical, and the style of the textile work and clothing is consistent with AI-generated depictions of traditional crafts, indicating it was likely created by an AI model.",ai_generated,90
+fakeclue_019.jpg,ai_generated,cot,label_only,ai_generated,ai_generated,
+fakeclue_019.jpg,ai_generated,cot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting appears very uniform and lacks natural variation, and the overall composition feels somewhat artificial, indicating it was likely created by an AI. Subtle texture inconsistencies and a slight softness to the details further support this classification.",ai_generated,95
+df_000.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_000.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits several inconsistencies in lighting and texture, typical of AI generation, and the overall quality lacks the sharpness and naturalness of a photograph. Subtle anomalies around the eyes and skin further suggest synthetic origin.",ai_generated,85
+df_000.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_000.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and uniform, and there's a slight blurring around the edges of the face, suggesting it's a digitally created image. The lighting is somewhat inconsistent and lacks the natural falloff expected in a photograph.",ai_generated,85
+df_000.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_000.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The lighting and textures in the image appear too perfect and uniform, which is typical of AI-generated artwork, and the repetitive patterns in the foliage suggest a lack of natural variation. The style resembles architectural visualization often produced by AI.",ai_generated,90
+df_000.jpg,deepfake,cot,label_only,real,real,
+df_000.jpg,deepfake,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image exhibits natural lighting and skin texture, and there are no immediately apparent distortions or artifacts that would suggest AI generation or deepfake manipulation.",real,95
+df_001.jpg,deepfake,zero_shot,label_only,real,real,
+df_001.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting and skin texture appear somewhat artificial, and there's a lack of subtle imperfections typical of real photographs, suggesting AI generation. The eye reflections also seem digitally rendered.",ai_generated,85
+df_001.jpg,deepfake,structured,label_only,real,real,
+df_001.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and uniform, and there's a slight blurring around the edges of the face, which are common indicators of AI generation. The lighting also seems a bit inconsistent, further suggesting a synthetic origin.",ai_generated,85
+df_001.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_001.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image has a very stylized and unrealistic look to the landscaping, with perfectly arranged plants and perfectly level steps, characteristics often seen in AI-generated art. The overall composition is too clean and uniform for a real-world photograph.",ai_generated,95
+df_001.jpg,deepfake,cot,label_only,real,real,
+df_001.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears slightly too smooth and uniform, and the overall lighting has a soft, somewhat artificial quality, suggesting it was likely created by an AI. There are no clear, discernible artifacts, so it's not a deepfake, but it does have a subtle ""uncanny valley"" feel.",ai_generated,85
+df_002.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_002.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The overly smooth skin texture, lack of natural imperfections, and somewhat unnatural lighting suggest it was created by an AI, rather than being a photograph of a real person. The vacant expression and awkward pose further point towards artificial generation.",ai_generated,95
+df_002.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_002.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and uniform, and the lighting is inconsistent, suggesting it was likely generated by AI rather than captured in a photograph. The lack of subtle imperfections characteristic of real skin further supports this assessment.",ai_generated,95
+df_002.jpg,deepfake,few_shot,label_only,real,real,
+df_002.jpg,deepfake,few_shot,reasoning,"Label: deepfake
+Confidence: 85
+Reasoning: The man's facial features seem unnatural and slightly distorted, and the eyes lack a sense of depth or realism, indicative of digital manipulation. The overly smooth skin and lack of natural imperfections further support the deepfake classification.",deepfake,85
+df_002.jpg,deepfake,cot,label_only,real,real,
+df_002.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits a slightly unnatural skin texture and a somewhat muted color palette, suggesting it was likely created using an AI generation model. While the overall composition is believable, subtle inconsistencies hint at artificiality.",ai_generated,85
+df_003.jpg,deepfake,zero_shot,label_only,real,real,
+df_003.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits subtle inconsistencies in lighting and texture, along with an unusual smoothness in the skin, which are hallmarks of AI-generated imagery. The overall composition and style also suggest a digital creation.",ai_generated,95
+df_003.jpg,deepfake,structured,label_only,real,real,
+df_003.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting is inconsistent, the skin texture appears overly smooth and lacks natural variation, and there's a general lack of realism in the facial features, all pointing towards AI generation.",ai_generated,95
+df_003.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_003.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The lighting and textures appear somewhat artificial, and the subject's expression is subtly unnatural, pointing towards AI generation. The overall composition also lacks the imperfections found in real photographs.",ai_generated,95
+df_003.jpg,deepfake,cot,label_only,real,real,
+df_003.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting appears somewhat flat and the skin texture lacks the nuanced detail of a real photograph, suggesting the image was created by an AI model. There is a subtle lack of realism in the way the hair interacts with the head.",ai_generated,85
+df_004.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_004.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits subtle inconsistencies in lighting and texture, and the overall composition seems somewhat artificial, suggesting it was likely generated by AI. Facial features also appear somewhat smoothed and lacking in fine details typical of real photographs.",ai_generated,85
+df_004.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_004.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and somewhat plastic-like, and there's a slight lack of detail in the facial features, suggesting it was likely created by an AI. The overall image has a subtly artificial quality.",ai_generated,85
+df_004.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_004.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's face has an unnatural smoothness and symmetry, and the textures of the fabric and background appear somewhat artificial, suggesting it was generated by AI. The unusual nose is also a telltale sign of AI generation.",ai_generated,85
+df_004.jpg,deepfake,cot,label_only,real,real,
+df_004.jpg,deepfake,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image has natural lighting, textures, and details, and lacks any obvious signs of manipulation or artificial generation. While there is a slight blur, it appears consistent with a photograph.",real,95
+df_005.jpg,deepfake,zero_shot,label_only,real,real,
+df_005.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The overall lighting and details appear somewhat artificial, and there's a slight lack of natural texture and variation typical of real photographs, suggesting AI generation. The man's facial features also have a slightly uniform quality that is characteristic of AI-generated faces.",ai_generated,95
+df_005.jpg,deepfake,structured,label_only,real,real,
+df_005.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting is somewhat inconsistent, and there's a general lack of fine detail in the skin texture, typical characteristics of AI-generated images. Furthermore, the background appears slightly blurred and lacks natural sharpness.",ai_generated,85
+df_005.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_005.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image has an unnatural, digitally rendered quality to it, particularly noticeable in the texture of the man’s face and the overly-saturated colors of the surrounding landscape. The presence of the ""xixi0.6"" watermark further suggests AI generation.",ai_generated,95
+df_005.jpg,deepfake,cot,label_only,real,real,
+df_005.jpg,deepfake,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image has natural lighting and texture, and the facial features appear consistent with a real person, with only slight imperfections that are common in photography. There are no obvious artifacts or signs of manipulation.",real,95
+df_006.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_006.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The overly smooth skin texture, symmetrical features, and slightly unnatural eye reflections are characteristic of AI-generated faces, suggesting a synthetic origin. There's also a lack of fine detail and subtle imperfections typically found in real photographs.",ai_generated,95
+df_006.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_006.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and uniform, and the lighting is somewhat unnatural, which are common characteristics of AI-generated images. Additionally, there's a slight blurring around the edges that suggests a lack of fine detail typically found in real photographs.",ai_generated,85
+df_006.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_006.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The unnatural lighting, overly-perfect composition, and the slightly ""off"" appearance of the man's face (especially around the eyes) are indicative of AI generation. The watermarks ""xixi0.6"" also suggest an AI-generated image.",ai_generated,95
+df_006.jpg,deepfake,cot,label_only,real,real,
+df_006.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The image exhibits slightly unnatural skin texture and a lack of fine detail, along with a uniformity in lighting, which are characteristic of AI-generated imagery.",ai_generated,90
+df_007.jpg,deepfake,zero_shot,label_only,deepfake,deepfake,
+df_007.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits subtle distortions and a lack of fine detail around the edges, suggesting it's a digitally created or heavily processed image, likely AI-generated. The overall appearance lacks the sharpness and realism of a photograph.",ai_generated,85
+df_007.jpg,deepfake,structured,label_only,deepfake,deepfake,
+df_007.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and lacks natural imperfections, and the overall lighting and sharpness are somewhat inconsistent, suggesting AI manipulation. There are also slight artifacts noticeable around the edges of the face.",ai_generated,85
+df_007.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_007.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man’s expression and the somewhat unnatural lighting, combined with the overall aesthetic, suggest an AI-generated image rather than a photograph. The level of detail and slightly artificial appearance are typical of this type of image.",ai_generated,85
+df_007.jpg,deepfake,cot,label_only,real,real,
+df_007.jpg,deepfake,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image appears to be a photograph with natural lighting and skin texture, and there are no readily apparent artifacts or signs of manipulation, indicating it is likely a genuine image.",real,95
+df_008.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_008.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and uniform, and there's a slight blurring effect that suggests digital manipulation, which are typical characteristics of AI-generated images. The lighting also seems somewhat inconsistent.",ai_generated,95
+df_008.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_008.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and plasticky, and the lighting is inconsistent, which are common artifacts of AI image generation. There's also a slightly blurred quality to the overall image, suggesting post-processing typical of AI-created visuals.",ai_generated,95
+df_008.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_008.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image has a somewhat artificial and overly-perfect quality to it, typical of AI-generated content. The textures and lighting appear somewhat flat and lack the natural imperfections of a real photograph.",ai_generated,85
+df_008.jpg,deepfake,cot,label_only,real,real,
+df_008.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits a slightly artificial skin texture and overall smoothness characteristic of AI-generated content, suggesting it wasn't captured with a real camera. The lighting and colors appear somewhat uniform, lacking the subtle variations found in natural photographs.",ai_generated,85
+df_009.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_009.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits subtle inconsistencies in lighting and textures, and a slight artificiality in the facial details, suggesting it was likely created or heavily modified using AI. The overall quality also lacks the nuanced details typically found in real photographs.",ai_generated,85
+df_009.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_009.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting is inconsistent, and the skin texture appears overly smooth and artificial, suggesting it was likely generated by AI. There's also a slight blurring effect that isn't consistent with a typical photograph.",ai_generated,85
+df_009.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_009.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits an unnatural level of detail and symmetry, particularly in the landscaping elements and the overall composition, which are characteristic of AI-generated art. The text overlay ""xixi0.6"" also suggests digital creation.",ai_generated,95
+df_009.jpg,deepfake,cot,label_only,real,real,
+df_009.jpg,deepfake,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image exhibits natural lighting and textures, and the overall composition appears authentic, with no immediately apparent signs of digital manipulation or artifacts commonly associated with AI generation or deepfakes.",real,95
+df_010.jpg,deepfake,zero_shot,label_only,real,real,
+df_010.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits subtle anomalies in the lighting and skin texture, suggesting it was likely created by an AI model rather than captured in a real photograph. There's also a slight lack of realism in the eyes.",ai_generated,85
+df_010.jpg,deepfake,structured,label_only,real,real,
+df_010.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and lacks natural imperfections, and there's a slight blurring effect, suggesting it was generated by an AI model. The lighting is somewhat flat and lacks the complexity of real-world lighting.",ai_generated,85
+df_010.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_010.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The man's face appears to have an unusual texture and symmetry, and the lighting is unnatural, which are characteristics of AI-generated images. The overall scene also looks digitally rendered.",ai_generated,95
+df_010.jpg,deepfake,cot,label_only,real,real,
+df_010.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The skin texture appears slightly smoothed and lacks the fine details typical of real skin, and the lighting on the face seems somewhat uniform and lacks natural variation, indicating AI generation.",ai_generated,90
+df_011.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_011.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits several artifacts common in AI generation, including an unnatural skin texture and a slightly 'plastic' appearance to the eyes, suggesting it's not a photograph of a real person. The overall image quality is also slightly off.",ai_generated,85
+df_011.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_011.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and lacks natural imperfections, and the lighting is somewhat inconsistent, suggesting a digitally created image. Additionally, the overall scene feels slightly staged and lacks the subtle nuances of a genuine photograph.",ai_generated,85
+df_011.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_011.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The man's face has an unusual texture and the background appears overly smooth and stylized, suggesting it was created by an AI. The slightly distorted nose also points towards AI generation.",ai_generated,90
+df_011.jpg,deepfake,cot,label_only,real,real,
+df_011.jpg,deepfake,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image appears to be a photograph with natural lighting and textures, and there are no immediately apparent artifacts or signs of manipulation; however, there is a very slight blurring which could indicate image enhancement.",real,95
+df_012.jpg,deepfake,zero_shot,label_only,deepfake,deepfake,
+df_012.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits a lack of fine detail and a slightly plastic appearance, characteristic of AI-generated portraits, with an unnatural rendering of facial features and skin texture. The overall quality is low, suggesting it wasn't captured with a high-resolution camera.",ai_generated,85
+df_012.jpg,deepfake,structured,label_only,deepfake,deepfake,
+df_012.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and plastic-like, with inconsistent lighting and a slight blurring effect, suggesting it's likely an AI-generated image. The background also seems somewhat detached from the foreground, further supporting this assessment.",ai_generated,85
+df_012.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_012.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The person's expression and the overall lighting appear somewhat artificial and stylized, characteristic of AI-generated imagery, and the stitching visible in the clothing and the textures of the background indicate digital creation.",ai_generated,85
+df_012.jpg,deepfake,cot,label_only,real,real,
+df_012.jpg,deepfake,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image appears to be a photograph of a person with good lighting and realistic textures, and lacks the obvious artifacts typically associated with AI generation or deepfakes. While a slight softening of features may be present, it is within the realm of normal photographic qualities.",real,95
+df_013.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_013.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits a lack of micro-details, unusual lighting, and a slightly plastic appearance characteristic of AI-generated faces, suggesting it wasn't captured in a real photograph. The eyes also have a very strange, glassy quality.",ai_generated,95
+df_013.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_013.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and plastic-like, and the lighting is strangely consistent without natural variations, suggesting it was created by an AI. The eyes have a slight, unnatural quality that further supports this assessment.",ai_generated,85
+df_013.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_013.jpg,deepfake,few_shot,reasoning,"Label: deepfake
+Confidence: 85
+Reasoning: The unnatural symmetry of the face and the slightly odd texture of the skin are telltale signs of digital manipulation, strongly suggesting this is a deepfake. The eyes also appear somewhat vacant and lack natural micro-movements.",deepfake,85
+df_013.jpg,deepfake,cot,label_only,real,real,
+df_013.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The overall lighting and skin texture appear somewhat artificial and smoothed, and there's a slight lack of natural detail that is characteristic of AI-generated images. The expression also seems somewhat static and lacks the nuances of a real person.",ai_generated,95
+df_014.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_014.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits unnatural skin smoothing and a slightly plastic appearance, indicative of AI generation; the lighting and hair rendering also appear stylized and not entirely realistic.",ai_generated,95
+df_014.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_014.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and plasticky, and the lighting on the face doesn't quite match the background, suggesting it's likely an AI-generated image. The slight blurring around the edges also points to this conclusion.",ai_generated,85
+df_014.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_014.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The man's face has an unnatural, almost plastic-like quality, with an awkward smile and oddly placed features, typical of AI-generated imagery. The consistent branding in the bottom right corner further supports this classification.",ai_generated,85
+df_014.jpg,deepfake,cot,label_only,real,real,
+df_014.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears slightly artificial and smoothed, and the overall lighting lacks natural variation, suggesting it was generated by an AI. While not overtly distorted, the image has a subtle lack of realism that points toward AI generation.",ai_generated,85
+df_015.jpg,deepfake,zero_shot,label_only,real,real,
+df_015.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and uniform, and there's a slight artificiality in the lighting and eye reflections, suggesting AI generation. While subtle, these details point towards a synthetic origin.",ai_generated,85
+df_015.jpg,deepfake,structured,label_only,real,real,
+df_015.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and uniform, and the lighting doesn't quite match the shadows, suggesting it’s likely an AI-generated image. There's also a slight blurring effect that's characteristic of some AI rendering techniques.",ai_generated,85
+df_015.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_015.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The texture and consistency of the man's face and clothing, along with the unnatural lighting and perfect composition, suggest it's a digitally created image. The style aligns with digitally-rendered artistic depictions.",ai_generated,95
+df_015.jpg,deepfake,cot,label_only,real,real,
+df_015.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears somewhat smoothed and lacking in fine detail, and the lighting seems overly consistent and a bit artificial, which are hallmarks of AI-generated imagery.",ai_generated,85
+df_016.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_016.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and plastic-like, and there's a general lack of fine detail characteristic of real photography, indicating it was likely created or heavily manipulated by AI. The lighting and shadows are also somewhat inconsistent.",ai_generated,95
+df_016.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_016.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and artificial, and the lighting lacks natural consistency, which are common indicators of AI generation. The overall composition also seems somewhat staged and lacks organic detail.",ai_generated,85
+df_016.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_016.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 90
+Reasoning: The man's face has a very unnatural, almost plastic appearance, and the lighting and textures appear digitally rendered rather than photographic. The exaggerated nose is also a common trait of AI image generation.",ai_generated,90
+df_016.jpg,deepfake,cot,label_only,real,real,
+df_016.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits a slightly plastic appearance with inconsistent lighting and a somewhat artificial look to the skin texture, which are common characteristics of AI-generated images. The overall composition appears somewhat sterile and lacks the nuanced details of a real photograph.",ai_generated,85
+df_017.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_017.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits inconsistencies in lighting and detail, along with a slightly unnatural skin texture, which are common characteristics of AI-generated images. The eyes also appear somewhat rigid and lack the subtle imperfections found in real photographs.",ai_generated,85
+df_017.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_017.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The skin texture appears overly smooth and uniform, and the lighting doesn't quite match the shadows, suggesting a digitally created image. There's a slight artificiality in the overall appearance.",ai_generated,95
+df_017.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_017.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image has an uncanny, artificial quality, with overly smooth textures and a somewhat unrealistic lighting, characteristic of AI-generated art. The repetitive patterns and slightly awkward composition also point to AI creation.",ai_generated,95
+df_017.jpg,deepfake,cot,label_only,real,real,
+df_017.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image exhibits a slightly artificial appearance with some minor inconsistencies in texture and lighting, suggesting it was likely generated by AI. While subtle, these details point away from a genuinely captured photograph.",ai_generated,95
+df_018.jpg,deepfake,zero_shot,label_only,real,real,
+df_018.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting appears somewhat flat and artificial, and there's a slight lack of fine detail in the hair and skin texture consistent with AI generation. The overall image has a polished, but somewhat unrealistic quality.",ai_generated,85
+df_018.jpg,deepfake,structured,label_only,real,real,
+df_018.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting appears inconsistent across the face, and there’s a subtle blurring effect, suggesting it was likely created by an AI model attempting to generate a realistic image. The overall composition seems a little too perfect, further hinting at an artificial origin.",ai_generated,85
+df_018.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_018.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image has a very artificial and overly-perfect aesthetic, with a symmetrical composition and unnatural lighting characteristic of AI-generated art. The textures appear digitally rendered rather than organic.",ai_generated,95
+df_018.jpg,deepfake,cot,label_only,real,real,
+df_018.jpg,deepfake,cot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The lighting is somewhat flat and the skin texture appears slightly smoothed, which are common artifacts in AI-generated images. While not definitive, these inconsistencies suggest the image wasn't captured with a standard camera.",ai_generated,85
+df_019.jpg,deepfake,zero_shot,label_only,ai_generated,ai_generated,
+df_019.jpg,deepfake,zero_shot,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The image exhibits several subtle artifacts common to AI generation, such as inconsistencies in lighting and minor distortions around the facial features, suggesting it wasn't captured with a traditional camera. The overall quality also lacks the sharpness and naturalism of a photograph.",ai_generated,85
+df_019.jpg,deepfake,structured,label_only,ai_generated,ai_generated,
+df_019.jpg,deepfake,structured,reasoning,"Label: ai_generated
+Confidence: 85
+Reasoning: The skin texture appears overly smooth and the lighting is inconsistent, suggesting it was likely generated by AI. There's also a subtle lack of natural detail that is common in AI-generated imagery.",ai_generated,85
+df_019.jpg,deepfake,few_shot,label_only,ai_generated,ai_generated,
+df_019.jpg,deepfake,few_shot,reasoning,"Label: ai_generated
+Confidence: 95
+Reasoning: The image has an overly polished, unrealistic look with perfect lighting and composition, typical of AI-generated art. The details on the person’s face and clothing appear slightly off and lack natural imperfections.",ai_generated,95
+df_019.jpg,deepfake,cot,label_only,real,real,
+df_019.jpg,deepfake,cot,reasoning,"Label: real
+Confidence: 95
+Reasoning: The image appears natural with consistent lighting and realistic textures, showing no obvious artifacts or signs of manipulation commonly associated with AI generation or deepfakes.",real,95
